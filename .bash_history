@@ -218,3 +218,142 @@ which ntp
 cat /etc/motd
 chef --help
 chef generate --help
+ls -lrth
+vim setup.rb
+sudo chef-client --localmode setup.rb 
+ls -ltrh
+cd cok
+cd cook
+cd cookbooks/
+ls
+cd work
+ls
+c d workstation/
+cd workstation/
+cd recipes/
+vim setup.rb
+sudo chef-client --local-mode setup.rb 
+vim setup.rb
+sudo chef-client --local-mode setup.rb 
+cat ../../../setup.rb 
+cat setup.rb
+vim setup.rb
+sudo chef-client --local-mode setup.rb 
+which git
+git -v
+git --v
+git --version
+tree cookbooks
+cd ../
+ls -rlt
+git init
+git status
+git add .
+git status
+git commit -m "Initial commit"
+git status
+git log
+vim recipes/
+cd recipes/
+vim set
+vim setup.rb 
+cd .
+cd
+git status
+vim cookbooks/workstation/recipes/setup.rb 
+git status
+git add .
+git status
+git commit -m "Added emacs pacakge to setup.rb"
+git status
+git commit -m "Added emacs pacakge to setup.rb"
+git config --global user.email santhu3064@gmail.com
+git commit -m "Added emacs pacakge to setup.rb"
+git remote add origin git@github.com:santhu3064/chef-cookbooks.git
+git origin
+git remote remove origin
+git remote add origin git@github.com:santhu3064/chef-cookbooks.git
+git push origin master
+git remote remove origin
+git remote add origin https://github.com/santhu3064/chef-cookbooks.git
+git push origin master
+git tag --help
+git remot --help
+git remote --help
+git remote -v
+git log
+git tag "firstcookbookv1" 7f0f7a4e365397a02a6a7d84c4c5fcb6f3c27605
+git --tags
+git --tag
+gittatg
+git tags
+git tag
+git tag "firstcookbookv2" ae660f610586932eeef806fad5eea2490b60e340
+ls
+cd cookbooks/
+cd wo
+cd workstation/
+vim metadata.rb 
+git status
+git add .
+git init
+git add ..
+git add .
+git commit -m "Changed version of metadat.rb to V 0.2.0"
+cd 
+chef generate cookbook cookbooks/apache
+tree cookbooks/
+chef generate recipe cookbooks/apache server
+tree cookbooks/
+vim cookbooks/apache/recipes/server.rb 
+chef exec ruby cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+chef exec ruby cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+sudo chef-client -z  cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+sudo chef-client -z  cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+chef exec ruby cookbooks/apache/recipes/server.rb 
+sudo chef-client -z  cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+chef exec ruby cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+chef exec ruby cookbooks/apache/recipes/server.rb 
+vim cookbooks/apache/recipes/server.rb 
+cat cookbooks/apache/recipes/server.rb
+vim cookbooks/apache/recipes/server.rb 
+cd cookbooks/apache/recipes/
+ls -rtl
+rm -rf  server.rb 
+ls
+vim ser.rb
+chef exec ruby cookbooks/apache/recipes/ser.rb 
+ls
+chef exec ruby cookbooks/apache/recipes/ser.rb 
+cdcd
+cd
+ls
+cat cookbooks/apache/recipes/ser.rb 
+chef exec ruby cookbooks/apache/recipes/ser.rb 
+cat cookbooks/apache/recipes/ser.rb
+apt-get update -y
+cat cookbooks/apache/recipes/ser.rb
+chef exec ruby cookbooks/apache/recipes/ser.rb 
+vim ser.rb
+vim cookbooks/apache/recipes/ser.rb
+chef exec ruby cookbooks/apache/recipes/ser.rb 
+sudo chef-client -z  cookbooks/apache/recipes/server.rb 
+sudo chef-client -z  cookbooks/apache/recipes/ser.rb 
+curl httpd
+
+cat  cookbooks/apache/recipes/ser.rb 
+ls
+tree cookbooks/
+sudo chef-client --runlist "apache::ser"
+sudo chef-client -z --runlist "apache::ser"
+sudo chef-client -z -r "workstation::setup"
+vim cookbooks/workstation/recipes/default.rb 
+sudo chef-client -z -r "workstation"
+ifconfig
+poweroff

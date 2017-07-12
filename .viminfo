@@ -12,8 +12,8 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
-:qa!
 :q!
+:qa!
 :!
 :Q!
 :wq
@@ -28,38 +28,52 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	:
-"1	LINE	0
-	
+""1	LINE	0
+	# Cookbook:: apache
+	package 'apache2' do
 "2	LINE	0
-	redis-server
+	# Recipe:: server
+	
 "3	LINE	0
-	redis-server
+	#
 "4	LINE	0
-	redis-server
+	s, All Rights Reserved.
 "5	LINE	0
-	ubuntu
+	end
 "6	LINE	0
-	jenkins-server
+	 action :install
 "7	LINE	0
-	ubuntu
+	
+"8	LINE	0
+	redis-server
+"9	LINE	0
+	redis-server
 "-	CHAR	0
-	:
+	r
 
 # File marks:
-'0  1  0  ~/cookbooks/workstation/recipes/setup.rb
-'1  2  14  ~/cookbooks/workstation/recipes/setup.rb
-'2  1  0  ~/cookbooks/workstation/recipes/set
-'3  8  0  ~/cookbooks/workstation/recipes
-'4  13  7  ~/cookbooks/workstation/recipes/setup.rb
-'5  7  2  ~/cookbooks/workstation/recipes/setup.rb
-'6  14  2  ~/cookbooks/workstation/recipes/setup.rb
-'7  7  6  ~/setup.rb
-'8  4  11  ~/setup.rb
-'9  14  2  ~/setup.rb
+'0  1  0  ~/cookbooks/apache/recipes/server.rb
+'1  9  15  ~/cookbooks/apache/recipes/server.rb
+'2  2  14  ~/cookbooks/apache/recipes/server.rb
+'3  2  0  ~/cookbooks/apache/recipes/server.rb
+'4  6  22  ~/cookbooks/apache/recipes/server.rb
+'5  4  0  ~/cookbooks/apache/recipes/server.rb
+'6  11  2  ~/cookbooks/apache/recipes/server.rb
+'7  7  11  ~/cookbooks/workstation/metadata.rb
+'8  1  0  ~/cookbooks/workstation/recipes/setup.rb
+'9  2  14  ~/cookbooks/workstation/recipes/setup.rb
 
 # Jumplist (newest first):
+-'  1  0  ~/cookbooks/apache/recipes/server.rb
+-'  9  15  ~/cookbooks/apache/recipes/server.rb
+-'  2  14  ~/cookbooks/apache/recipes/server.rb
+-'  6  22  ~/cookbooks/apache/recipes/server.rb
+-'  4  0  ~/cookbooks/apache/recipes/server.rb
+-'  11  2  ~/cookbooks/apache/recipes/server.rb
+-'  7  11  ~/cookbooks/workstation/metadata.rb
+-'  1  0  ~/cookbooks/workstation/metadata.rb
 -'  1  0  ~/cookbooks/workstation/recipes/setup.rb
 -'  2  14  ~/cookbooks/workstation/recipes/setup.rb
 -'  1  0  ~/cookbooks/workstation/recipes/set
@@ -148,17 +162,48 @@ $
 -'  2  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  43  ~/tunnel.sh
--'  1  43  ~/tunnel.sh
--'  2  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  43  ~/tunnel.sh
--'  1  43  ~/tunnel.sh
--'  2  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  43  ~/tunnel.sh
--'  1  43  ~/tunnel.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/cookbooks/apache/recipes/server.rb
+	"	1	0
+	^	9	16
+	.	2	0
+	+	4	16
+	+	7	3
+	+	4	0
+	+	11	2
+	+	2	0
+	+	6	22
+	+	2	0
+	+	4	0
+	+	2	20
+	+	3	2
+	+	9	15
+	+	2	0
+
+> ~/cookbooks/workstation/recipes/default.rb
+	"	6	34
+	^	6	35
+	.	6	34
+	+	6	34
+
+> ~/cookbooks/apache/recipes/ser.rb
+	"	14	15
+	^	14	16
+	.	14	15
+	+	16	0
+	+	1	27
+	+	8	3
+	+	14	15
+
+> ~/ser.rb
+	"	1	0
+
+> ~/cookbooks/workstation/metadata.rb
+	"	7	11
+	.	7	11
+	+	7	11
 
 > ~/cookbooks/workstation/recipes/setup.rb
 	"	1	0
