@@ -1,9 +1,22 @@
-Generated at 2017-07-05 15:30:44 +0530
-Chef::Exceptions::RecipeNotFound: could not find recipe file /root/cookbooks/apache/recipes/server.rb
-/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:353:in `load_recipe_file'
-/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/policy_builder/expand_node_object.rb:100:in `block in setup_run_context'
-/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/policy_builder/expand_node_object.rb:99:in `each'
-/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/policy_builder/expand_node_object.rb:99:in `setup_run_context'
+Generated at 2017-07-12 07:39:43 +0530
+Chef::Exceptions::RecipeNotFound: could not find recipe  ser for cookbook apache
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/cookbook_version.rb:222:in `load_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:338:in `load_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:294:in `block in include_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:293:in `each'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:293:in `include_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/dsl/include_recipe.rb:26:in `include_recipe'
+/root/.chef/local-mode-cache/cache/cookbooks/apache/recipes/default.rb:6:in `from_file'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/mixin/from_file.rb:30:in `instance_eval'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/mixin/from_file.rb:30:in `from_file'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/cookbook_version.rb:233:in `load_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:338:in `load_recipe'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context/cookbook_compiler.rb:141:in `block in compile_recipes'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context/cookbook_compiler.rb:138:in `each'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context/cookbook_compiler.rb:138:in `compile_recipes'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context/cookbook_compiler.rb:75:in `compile'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/run_context.rb:187:in `load'
+/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/policy_builder/expand_node_object.rb:97:in `setup_run_context'
 /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/client.rb:513:in `setup_run_context'
 /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/client.rb:281:in `run'
 /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/chef-12.21.2/lib/chef/application.rb:295:in `block in fork_chef_client'

@@ -30,7 +30,7 @@ $
 # Registers:
 "0	CHAR	0
 	:
-""1	LINE	0
+"1	LINE	0
 	# Cookbook:: apache
 	package 'apache2' do
 "2	LINE	0
@@ -50,22 +50,24 @@ $
 	redis-server
 "9	LINE	0
 	redis-server
-"-	CHAR	0
-	r
+""-	CHAR	0
+	'
 
 # File marks:
-'0  1  0  ~/cookbooks/apache/recipes/server.rb
-'1  9  15  ~/cookbooks/apache/recipes/server.rb
-'2  2  14  ~/cookbooks/apache/recipes/server.rb
-'3  2  0  ~/cookbooks/apache/recipes/server.rb
-'4  6  22  ~/cookbooks/apache/recipes/server.rb
-'5  4  0  ~/cookbooks/apache/recipes/server.rb
-'6  11  2  ~/cookbooks/apache/recipes/server.rb
-'7  7  11  ~/cookbooks/workstation/metadata.rb
-'8  1  0  ~/cookbooks/workstation/recipes/setup.rb
-'9  2  14  ~/cookbooks/workstation/recipes/setup.rb
+'0  6  27  ~/cookbooks/apache/recipes/default.rb
+'1  1  0  ~/cookbooks/apache/recipes/default.rb
+'2  1  0  ~/cookbooks/apache/recipes/server.rb
+'3  9  15  ~/cookbooks/apache/recipes/server.rb
+'4  2  14  ~/cookbooks/apache/recipes/server.rb
+'5  2  0  ~/cookbooks/apache/recipes/server.rb
+'6  6  22  ~/cookbooks/apache/recipes/server.rb
+'7  4  0  ~/cookbooks/apache/recipes/server.rb
+'8  11  2  ~/cookbooks/apache/recipes/server.rb
+'9  7  11  ~/cookbooks/workstation/metadata.rb
 
 # Jumplist (newest first):
+-'  6  27  ~/cookbooks/apache/recipes/default.rb
+-'  1  0  ~/cookbooks/apache/recipes/default.rb
 -'  1  0  ~/cookbooks/apache/recipes/server.rb
 -'  9  15  ~/cookbooks/apache/recipes/server.rb
 -'  2  14  ~/cookbooks/apache/recipes/server.rb
@@ -160,10 +162,14 @@ $
 -'  1  43  ~/tunnel.sh
 -'  1  43  ~/tunnel.sh
 -'  2  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  43  ~/tunnel.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/cookbooks/apache/recipes/default.rb
+	"	6	27
+	^	6	28
+	.	6	27
+	+	6	27
 
 > ~/cookbooks/apache/recipes/server.rb
 	"	1	0
