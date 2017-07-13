@@ -357,3 +357,56 @@ vim cookbooks/workstation/recipes/default.rb
 sudo chef-client -z -r "workstation"
 ifconfig
 poweroff
+ls
+cd cook
+cd cookbooks/
+ls -rlt
+git remote origin
+git remote remove origin
+git remote add origin https://github.com/santhu3064/chef-cookbooks.git
+git init
+git add .
+git commit -m "Inital commit"
+git push -u origin master
+git remote add origin https://github.com/santhu3064/chef-cookbooks.git
+git push -u origin master
+git remote add origin https://github.com/santhu3064/chef-cookbooks.git
+git init
+git remote add origin https://github.com/santhu3064/chef-cookbooks.git
+git add .
+git commit -m "New commit"
+git push -u origin master
+cd ..
+git remote add origin https://github.com/santhu3064/chef-cookbooks.git
+git init
+git add .
+git commit -m "New commit"
+git push -u origin master
+history
+ls -rlt
+cd cookbooks/
+cd apache/
+ls
+cd recipes/
+ls
+vim default.rb 
+sudo chef-client -z -r "recipe[apache]"
+tree recipe
+tree recipes
+cd ..
+tree apache
+cd ..
+tree apche
+tree apache
+cd apache/
+cd recipes/
+vim default.rb 
+sudo chef-client -z -r "recipe[apache]"
+vim default.rb 
+cd
+sudo chef-client -z -r "recipe[apache]"
+git add .
+git commit -m "new"
+git push -u origin master
+ifconfig
+poweroff
