@@ -410,3 +410,97 @@ git commit -m "new"
 git push -u origin master
 ifconfig
 poweroff
+ohai
+hostname
+hostname -f
+hostname -F
+hostname -I
+cat /proc
+cat /proc/meminfo 
+cat /proc/cpuinfo 
+ohai model anme
+ohai modelnanme
+ohai model name
+ohai 'model name'
+ohai
+ohao ohaitime
+ohai ipaddress
+ohai hostname
+ohai memory
+ohai memory/active
+ohai memory/active/mhz
+ohai memory/active/0/mhz
+ohai memory/active/0
+ohai memory/active/o
+ohai memory/a0
+ohai memory/0
+ohai memory/total
+ohai memory
+cd cookbooks/
+ls -rlt
+cd workstation/
+ls -lrt
+cd ../../
+vim cookbooks/workstation/recipes/setup.rb 
+hostname
+hostname -f
+vim cookbooks/workstation/recipes/setup.rb 
+ohai cpu/0
+ohai
+ohai cpu/0
+ohai memory/tota;
+ohai memory/total
+ohai memory/total/mhz
+vim cookbooks/workstation/recipes/setup.rb 
+sudo chef-client -zr "recipe[workstation:setup]"
+cat /etc/motd
+sudo chef-client -zr "recipe[workstation::setup]"
+cat /etc/motd
+sudo chef-client -zr "recipe[workstation]"
+vim cookbooks/workstation/recipes/setup.rb 
+sudo chef-client -zr "recipe[workstation]"
+tree cookbooks/
+sudo chef-client -zr "workstation::setup"
+sudo chef-client -z -r cookbooks/workstation/recipes/setup.rb 
+ohai
+sudo chef-client -z -r cookbooks/workstation/recipes/setup.rb 
+vim cookbooks/workstation/recipes/setup.rb 
+sudo chef-client -z -r cookbooks/workstation/recipes/setup.rb 
+history
+cd cookbooks/workstation/recipes/
+ls
+sudo chef-client -z -r setup.rb 
+sudo chef-client -z  setup.rb 
+cat /etc/motd
+cd 
+find . -name index.html
+find . -name index
+vim cookbooks/apache/recipes/ser.rb 
+sudo chef-client --local-mode --runlist "apache"
+cat  cookbooks/apache/recipes/ser.rb 
+cat /var/www/html/index.html
+cat  cookbooks/apache/metadata.rb 
+vim  cookbooks/apache/metadata.rb 
+cd cookbooks/
+git add .
+git remote origin
+git  origin
+
+hstory | grep -i git
+history | grep -i git
+git remote -v
+git commit -m "Added ohai variables"
+git init
+git add .
+git commit -m "Added ohai variables"
+git push -u origin master
+cd ..
+git init
+git add .
+git commit -m "Added ohai variables"
+git push -u origin master
+git log
+git tag 0.2.0 fd9ab41b971ef701e1e199a96ad6d183809eea74
+git push --tags
+poweroff
+ifconfig

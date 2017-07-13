@@ -30,47 +30,50 @@ $
 # Registers:
 "0	CHAR	0
 	:
-"1	LINE	0
-	 
-"2	LINE	0
-	end
-"3	LINE	0
+""1	LINE	0
 	 group 'root'
-"4	LINE	0
+"2	LINE	0
 	 owner 'root'
-"5	LINE	0
+"3	LINE	0
+	 ddode '0644'
+"4	LINE	0
 	"
+"5	LINE	0
+	 CPU : #{node['cpu']['0']['mhz']}
 "6	LINE	0
-	 MEMORY: #{['node']['total']}
+	 MEMORY : #{node['memory']['total']}
 "7	LINE	0
-	 CPU: #{node['cpu']['0']['mhz']}
+	 HOSTNAME : #{node['hostname']}
 "8	LINE	0
-	 IPADDRESS:  #{node['ipaddress']}
+	 IPADDRESS: #{node['ipaddress']}
 "9	LINE	0
-	 HOSTNAME: #{node['hostname']}
-""-	CHAR	0
-	1
+	
+"-	CHAR	0
+	e
 
 # File marks:
-'0  7  12  ~/cookbooks/apache/metadata.rb
-'1  14  7  ~/cookbooks/apache/recipes/ser.rb
-'2  1  2  ~/cookbooks/workstation/recipes/setup.rb
-'3  15  1  ~/cookbooks/workstation/recipes/setup.rb
-'4  15  28  ~/cookbooks/workstation/recipes/setup.rb
-'5  15  23  ~/cookbooks/workstation/recipes/setup.rb
-'6  20  15  ~/cookbooks/workstation/recipes/setup.rb
-'7  6  27  ~/cookbooks/apache/recipes/default.rb
-'8  1  0  ~/cookbooks/apache/recipes/default.rb
-'9  1  0  ~/cookbooks/apache/recipes/server.rb
+'0  1  19  ~/cookbooks/workstation/templates/motd.erb
+'1  5  2  ~/cookbooks/workstation/recipes/setup.rb
+'2  5  0  ~/cookbooks/workstation/templates/motd.erb
+'3  7  12  ~/cookbooks/apache/metadata.rb
+'4  14  7  ~/cookbooks/apache/recipes/ser.rb
+'5  1  2  ~/cookbooks/workstation/recipes/setup.rb
+'6  7  1  ~/cookbooks/workstation/recipes/setup.rb
+'7  7  28  ~/cookbooks/workstation/recipes/setup.rb
+'8  7  23  ~/cookbooks/workstation/recipes/setup.rb
+'9  12  15  ~/cookbooks/workstation/recipes/setup.rb
 
 # Jumplist (newest first):
+-'  1  19  ~/cookbooks/workstation/templates/motd.erb
+-'  5  2  ~/cookbooks/workstation/recipes/setup.rb
+-'  1  0  ~/cookbooks/workstation/recipes/setup.rb
+-'  5  0  ~/cookbooks/workstation/templates/motd.erb
 -'  7  12  ~/cookbooks/apache/metadata.rb
 -'  1  0  ~/cookbooks/apache/metadata.rb
 -'  14  7  ~/cookbooks/apache/recipes/ser.rb
 -'  1  0  ~/cookbooks/apache/recipes/ser.rb
--'  1  2  ~/cookbooks/workstation/recipes/setup.rb
--'  15  0  ~/cookbooks/workstation/recipes/setup.rb
--'  20  15  ~/cookbooks/workstation/recipes/setup.rb
+-'  7  0  ~/cookbooks/workstation/recipes/setup.rb
+-'  12  15  ~/cookbooks/workstation/recipes/setup.rb
 -'  6  27  ~/cookbooks/apache/recipes/default.rb
 -'  1  0  ~/cookbooks/apache/recipes/default.rb
 -'  1  0  ~/cookbooks/apache/recipes/server.rb
@@ -83,8 +86,8 @@ $
 -'  1  0  ~/cookbooks/workstation/metadata.rb
 -'  1  0  ~/cookbooks/workstation/recipes/set
 -'  8  0  ~/cookbooks/workstation/recipes
--'  22  7  ~/cookbooks/workstation/recipes/setup.rb
--'  23  2  ~/cookbooks/workstation/recipes/setup.rb
+-'  14  7  ~/cookbooks/workstation/recipes/setup.rb
+-'  15  2  ~/cookbooks/workstation/recipes/setup.rb
 -'  7  6  ~/setup.rb
 -'  1  0  ~/setup.rb
 -'  4  11  ~/setup.rb
@@ -158,13 +161,75 @@ $
 -'  2  0  ~/.ssh/authorized_keys
 -'  1  0  ~/.ssh/authorized_keys
 -'  1  43  ~/tunnel.sh
--'  1  43  ~/tunnel.sh
--'  2  0  ~/.ssh/authorized_keys
--'  1  0  ~/.ssh/authorized_keys
--'  1  43  ~/tunnel.sh
--'  1  2  ~/cookbooks/workstation/recipes/setup.rb
 
 # History of marks within files (newest to oldest):
+
+> ~/cookbooks/workstation/templates/motd.erb
+	"	1	19
+	^	1	20
+	.	1	19
+	+	5	23
+	+	3	0
+	+	2	34
+	+	3	14
+	+	4	40
+	+	5	33
+	+	4	13
+	+	3	32
+	+	4	36
+	+	5	34
+	+	4	13
+	+	1	19
+
+> ~/cookbooks/workstation/recipes/setup.rb
+	"	5	2
+	^	5	3
+	.	4	9
+	+	7	22
+	+	7	12
+	+	7	7
+	+	16	0
+	+	7	18
+	+	16	0
+	+	12	15
+	+	14	12
+	+	15	2
+	+	7	12
+	+	7	2
+	+	13	12
+	+	14	7
+	+	7	14
+	+	12	15
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	17
+	+	7	23
+	+	7	37
+	+	7	1
+	+	7	0
+	+	7	10
+	+	7	13
+	+	7	11
+	+	7	13
+	+	7	30
+	+	7	28
+	+	7	2
+	+	7	18
+	+	7	11
+	+	7	28
+	+	7	0
+	+	7	0
+	+	7	0
+	+	1	20
+	+	4	3
+	+	1	2
+	+	2	7
+	+	3	17
+	+	4	9
 
 > ~/cookbooks/apache/metadata.rb
 	"	7	12
@@ -184,53 +249,6 @@ $
 	+	12	38
 	+	13	37
 	+	14	7
-
-> ~/cookbooks/workstation/recipes/setup.rb
-	"	1	2
-	^	1	3
-	.	1	2
-	+	15	22
-	+	15	12
-	+	15	7
-	+	24	0
-	+	15	18
-	+	24	0
-	+	20	15
-	+	22	12
-	+	23	2
-	+	15	12
-	+	15	2
-	+	21	12
-	+	22	7
-	+	15	14
-	+	20	15
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	17
-	+	15	23
-	+	15	37
-	+	15	1
-	+	15	0
-	+	15	10
-	+	15	13
-	+	15	11
-	+	15	13
-	+	15	30
-	+	15	28
-	+	15	2
-	+	15	18
-	+	15	11
-	+	15	28
-	+	15	0
-	+	15	0
-	+	15	0
-	+	1	20
-	+	13	3
-	+	1	2
 
 > ~/cookbooks/apache/recipes/default.rb
 	"	6	27
