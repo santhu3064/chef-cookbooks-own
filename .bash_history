@@ -504,3 +504,41 @@ git tag 0.2.0 fd9ab41b971ef701e1e199a96ad6d183809eea74
 git push --tags
 poweroff
 ifconfig
+tree cookbook
+tree cookbooks
+chef generate tempate --help
+chef generate template --help
+chef generate template cookbooks/workstation/motd
+chef generate template cookbooks/workstation/ motd
+tree cookbooks/
+cat cookbooks/workstation/recipes/setup.rb 
+vim cookbooks/workstation/templates/motd.erb 
+cat cookbooks/workstation/templates/motd.erb
+vim  cookbooks/workstation/recipes/setup.rb 
+sudo chef-clen -zr "workstation"
+sudo chef-client -zr "workstation"
+cat /etc/motd
+cat cookbooks/workstation/templates/motd.erb
+vim cookbooks/workstation/templates/motd.erb
+sudo chef-client -zr "workstation"
+cat /etc/motd
+git init
+git add .
+git commit -m "Added tempalte"
+git push -u origin master
+cat cookbooks/apache/recipes/ser.rb 
+chef generate template cookbooks/apache/ index.html
+tree apache
+tree cookbooks/
+cat cookbooks/apache/recipes/ser.rb 
+vim cookbooks/apache/templates/index.html.erb 
+vim cookbooks/apache/recipes/ser.rb 
+sudo chef-client -zr "apache"
+hisory
+history
+history | grep html$
+cat /var/www/html/index.html
+exit
+ifocnifg
+ifconfig
+poweroff
